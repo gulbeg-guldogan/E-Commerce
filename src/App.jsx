@@ -7,6 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import PromoCards from './components/cards-1';
 import BestsellerProducts from './components/shop-1';
 import MostPopular from './components/motopicCard';
+import ShopCard2 from './components/shop-2';
+import WoCard from './components/woCard';
+import BestSeller from './components/bestSeller';
+import Brands from './components/brands';
 
 function App() {
 
@@ -18,6 +22,10 @@ function App() {
         <PromoCards />
         <BestsellerProducts />
         <MostPopular />
+        <ShopCard2 />
+        <WoCard />
+        <BestSeller />
+        <Brands />
       </div>
 
     </>

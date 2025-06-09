@@ -13,7 +13,7 @@ export default function MostPopular() {
                 <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
                 <img src="/assets/meatbox.jpg" alt="meatBox"/>
                 <p>English Department</p>
-                <span>$16.48</span>
+                <span>$16.48</span>{' '}
                 <span>$6.48</span>
 
             </div>
