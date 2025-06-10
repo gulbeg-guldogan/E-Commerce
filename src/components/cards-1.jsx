@@ -21,11 +21,11 @@ const PromoCards = () => {
   ];
 
   return (
-    <Container className="my-5">
+    <Container className="my-5 mt-5">
       <Row className="g-4">
         {cards.map((card, index) => (
           <Col key={index} md={4}>
-            <Card className="text-center border-0">
+            <Card className="text-center border-4 bg-white">
               <Card.Body>
                 <Card.Subtitle className="mb-2 text-muted">{card.subtitle}</Card.Subtitle>
                 <Card.Title>{card.title}</Card.Title>

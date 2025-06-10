@@ -2,7 +2,7 @@ import { FaAws, FaHooli, FaLyft, FaRedditAlien, FaStripe, FaTwitch} from "react-
 
 export default function Brands() {
     return(
-        <p className="flex flex-row gap-20 justify-center">
+        <p className="flex flex-row gap-20 justify-center mt-5">
             <FaHooli className="text-9xl"/>
             <FaLyft className="text-9xl"/>
             <FaTwitch className="text-9xl"/>

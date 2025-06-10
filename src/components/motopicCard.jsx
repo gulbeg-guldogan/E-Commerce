@@ -2,19 +2,22 @@ import React from 'react';
 
 export default function MostPopular() {
   return (
-    <div className='flex flex-col gap-20'>
+    <div className='flex flex-col gap-20 mt-5'>
         <div className='flex flex-row pt-12 pb-12 gap-8'>
             <div className="bg-yellow-400 aspect-square flex items-center justify-center flex-1">
                 <img src="/assets/yellowmoto.jpg" alt="Hero" className="h-full w-full object-cover" />
             </div>
 
-            <div className='pt-20 pb-20 gap-8 flex flex-col flex-1'>
+            <div className='pt-20 pb-20 gap-8 flex flex-col justify-center items-center'>
                 <h3>MOST POPULAR</h3>
                 <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
                 <img src="/assets/meatbox.jpg" alt="meatBox"/>
                 <p>English Department</p>
-                <span>$16.48</span>{' '}
-                <span>$6.48</span>
+                <div>
+                    <span className="line-through text-gray-400">$16.48</span>{' '}
+                    <span className="text-green-600 font-semibold">$6.48</span>
+                </div>
+                
 
             </div>
         </div>

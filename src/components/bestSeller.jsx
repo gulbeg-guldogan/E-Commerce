@@ -33,11 +33,11 @@ const products = [
 
 export default function BestSeller() {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center mt-5'>
         <div className='w-[1069px] h-auto flex flex-col justify-center items-center'>
 
             <div>
-                <p>BESTSELLER PRODUCTS</p>
+                <p><span>BESTSELLER PRODUCTS</span></p>
             </div>
 
            <div className="flex flex-row gap-20 space-y-6 px-4 pb-4">

@@ -4,7 +4,7 @@ import { FiPhone, FiMapPin, FiMail } from "react-icons/fi";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#2E3240] text-white px-6 md:px-16 py-12">
+    <footer className="bg-[#2E3240] text-white px-6 md:px-16 py-12 mt-5">
       <div className="max-w-7xl mx-auto">
         {/* Üst Başlık */}
         <div className="md:flex justify-between items-start mb-10">

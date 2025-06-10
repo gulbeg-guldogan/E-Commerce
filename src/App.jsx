@@ -5,7 +5,7 @@ import NavigationBar from './components/navBar'
 import CarouselPage from './components/carousel'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PromoCards from './components/cards-1';
-import BestsellerProducts from './components/shop-1';
+import ShopCard1 from './components/shop-1'
 import MostPopular from './components/motopicCard';
 import ShopCard2 from './components/shop-2';
 import WoCard from './components/woCard';
@@ -18,11 +18,10 @@ function App() {
 
   return (
     <>
-      <div>
         <NavigationBar />
         <CarouselPage />
         <PromoCards />
-        <BestsellerProducts />
+        <ShopCard1 />
         <MostPopular />
         <ShopCard2 />
         <WoCard />
@@ -30,8 +29,6 @@ function App() {
         <Brands />
         <Post />
         <Footer />
-      </div>
-
     </>
   )
 }
