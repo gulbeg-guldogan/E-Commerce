@@ -6,17 +6,17 @@ const PromoCards = () => {
     {
       title: "Unique Life",
       subtitle: "Your Space",
-      image: "../public/assets/IceCream.png",
+      image: "/assets/IceCream.png",
     },
     {
       title: "Elements Style",
       subtitle: "Ends Today",
-      image: "../public/assets/apple.jpg",
+      image: "/assets/apple.jpg",
     },
     {
       title: "Elements Style",
       subtitle: "Ends Today",
-      image: "../public/assets/ham.jpg",
+      image: "/assets/ham.jpg",
     },
   ];
 

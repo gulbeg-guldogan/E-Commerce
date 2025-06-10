@@ -11,6 +11,8 @@ import ShopCard2 from './components/shop-2';
 import WoCard from './components/woCard';
 import BestSeller from './components/bestSeller';
 import Brands from './components/brands';
+import Post from './components/post';
+import Footer from './components/footer';
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
         <WoCard />
         <BestSeller />
         <Brands />
+        <Post />
+        <Footer />
       </div>
 
     </>

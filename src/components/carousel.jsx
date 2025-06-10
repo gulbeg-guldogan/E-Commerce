@@ -7,7 +7,7 @@ export default function CarouselPage() {
         <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
-            src="../public/assets/carousel-first.jpg"
+            src="/assets/carousel-first.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -18,7 +18,7 @@ export default function CarouselPage() {
         <Carousel.Item interval={3000}>
         <img
             className="d-block w-100"
-            src="../public/assets/mc.jpeg"
+            src="/assets/mc.jpeg"
             alt="First slide"
           />
           <Carousel.Caption>

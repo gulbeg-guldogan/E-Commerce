@@ -27,7 +27,7 @@ export default function MostPopular() {
                     </div>
 
                     <div className='step.1-Text'>
-                        <p>Easy to use</p>
+                        <p><strong>Easy to use</strong></p>
                         <p>Things on a very small that you have any direct</p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export default function MostPopular() {
                     </div>
                     
                     <div className='step.2-Text'>
-                        <p>Easy to use</p>
+                        <p><strong>Easy to use</strong></p>
                         <p>Things on a very small that you have any direct</p>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ export default function MostPopular() {
                         <h1>3.</h1>
                     </div>
                     <div className='step.3-Text'>
-                        <p>Easy to use</p>
+                        <p><strong>Easy to use</strong></p>
                         <p>Things on a very small that you have any direct</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ export default function MostPopular() {
                         <h1>4.</h1>
                     </div>
                     <div className='step.4-Text'>
-                        <p>Easy to use</p>
+                        <p><strong>Easy to use</strong></p>
                         <p>Things on a very small that you have any direct</p>
                     </div>
                 </div>
