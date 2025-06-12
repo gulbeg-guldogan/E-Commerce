@@ -47,9 +47,9 @@ const products = [
 
 export default function shopCard2() {
   return (
-    <div className="w-full flex flex-row justify-center gap-10 border-blue-500 mt-5">
+    <div className="w-full flex flex-row pt-12 pb-12 gap-8 justify-center">
 
-      <div>
+      <div className='pt-20 pb-20 gap-8 w-1/2'>
         <div className="py-4 flex flex-row gap-10">
           <h2 className="font-bold">BESTSELLER PRODUCTS</h2>
           <div className="flex justify-center gap-4 mt-2 text-sm text-gray-600">
@@ -79,10 +79,11 @@ export default function shopCard2() {
         </div>
       </div>
 
-      <div className="bg-blue-100 flex flex-col w-95 items-baseline justify-baseline">
+      <div className="w-full h-cover md:w-1/3 md:bg-right flex px-10 py-80 bg-no-repeat bg-blue-100" style={{
+            backgroundImage: "url('/assets/donut.jpg')",
+          }}>
         <div>FURNITURE</div>
         <div>5 items</div>
-        <img src="/assets/donut.jpg" alt="Hero" className="h-full object-cover" />
       </div>
 
     </div>

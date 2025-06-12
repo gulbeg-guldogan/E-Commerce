@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function MostPopular() {
   return (
-    <div className='flex flex-col gap-20 mt-5'>
-        <div className='flex flex-row pt-12 pb-12 gap-8'>
-            <div className="bg-yellow-400 aspect-square flex items-center justify-center flex-1">
+    <div className='w-full flex flex-col gap-20 mt-5'>
+        <div className='w-full flex flex-row pt-12 pb-12 gap-8 '>
+            <div className="bg-yellow-400 aspect-square flex items-center justify-center flex-1 w-1/2">
                 <img src="/assets/yellowmoto.jpg" alt="Hero" className="h-full w-full object-cover" />
             </div>
 
-            <div className='pt-20 pb-20 gap-8 flex flex-col justify-center items-center'>
+            <div className='pt-20 pb-20 gap-8 flex flex-col justify-center items-center w-1/2'>
                 <h3>MOST POPULAR</h3>
                 <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
                 <img src="/assets/meatbox.jpg" alt="meatBox"/>
@@ -17,12 +17,10 @@ export default function MostPopular() {
                     <span className="line-through text-gray-400">$16.48</span>{' '}
                     <span className="text-green-600 font-semibold">$6.48</span>
                 </div>
-                
-
             </div>
         </div>
 
-        <div className='flex items-center justify-center gap-10'>
+        <div className='w-full flex items-center justify-center gap-10'>
             <div className='flex flex-row'>
                 <div className='flex flex-row align-center'>
                     <div className='text-red-700'>

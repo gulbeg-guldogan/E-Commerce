@@ -32,7 +32,7 @@ const posts = [
 
 export default function Post() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12 mt-5">
+    <div className="w-full max-w-7xl mx-auto px-4 py-12 mt-5">
       <p className="text-center text-blue-500 font-semibold">Practice Advice</p>
       <h2 className="text-3xl font-bold text-center mb-8">Featured Posts</h2>
       <div className="grid md:grid-cols-3 gap-6">

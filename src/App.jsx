@@ -18,6 +18,7 @@ function App() {
 
   return (
     <>
+      <section className="w-full overflow-x-hidden">
         <NavigationBar />
         <CarouselPage />
         <PromoCards />
@@ -29,6 +30,7 @@ function App() {
         <Brands />
         <Post />
         <Footer />
+      </section>
     </>
   )
 }

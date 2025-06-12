@@ -21,7 +21,7 @@ const PromoCards = () => {
   ];
 
   return (
-    <Container className="my-5 mt-5">
+    <Container className="w-auto h-auto my-5 mt-5">
       <Row className="g-4">
         {cards.map((card, index) => (
           <Col key={index} md={4}>

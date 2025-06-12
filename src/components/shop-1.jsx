@@ -47,18 +47,19 @@ const products = [
 
 export default function shopCard1() {
   return (
-    <div className="w-full flex flex-row justify-center gap-10 border-blue-500">
+    <div className="w-full flex flex-row pt-12 pb-12 gap-8 justify-center ">
 
-      <div className="bg-yellow-400 flex flex-col items-baseline justify-baseline">
+      <div className="w-full h-cover md:w-1/3 md:bg-left flex px-10 py-80 bg-no-repeat bg-yellow-400" style={{
+            backgroundImage: "url('/assets/bgyelpic.jpg')",
+          }}>
         <div>FURNITURE</div>
         <div>5 items</div>
-        <img src="/assets/bgyelpic.jpg" alt="Hero" className="h-full object-cover" />
       </div>
 
-      <div>
+      <div className='pt-20 pb-20 gap-8 w-1/2'>
         <div className="py-4 flex flex-row gap-10">
           <h2 className="font-bold">BESTSELLER PRODUCTS</h2>
-          <div className="flex justify-center gap-4 mt-2 text-sm text-gray-600">
+          <div className="flex flex-row justify-center gap-4 mt-2 text-sm text-gray-600">
             <span className="text-blue-500 font-semibold">Men</span>
             <span>Women</span>
             <span>Accessories</span>
@@ -70,7 +71,7 @@ export default function shopCard1() {
           </div>
         </div>
 
-        <div className="flex flex-row flex-wrap w-[60%] justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 justify-center">
           {products.map((product, idx) => (
             <div key={idx} className="text-center">
               <img src={product.image} alt={product.name} className="mx-auto h-32 object-contain" />

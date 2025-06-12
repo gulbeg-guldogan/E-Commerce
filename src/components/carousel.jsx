@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function CarouselPage() {
   return (
-    <div className="w-auto h-auto" style={{ position: 'relative'}}>
+    <div className="w-full h-auto relative overflow-hidden" style={{ position: 'relative'}}>
       <Carousel>
         <Carousel.Item interval={3000}>
           <img
